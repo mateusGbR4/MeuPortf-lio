@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "poppins", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url(./img/image-background-search-1500x844.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+}
+.cabeçalho-link {
+  display: flex;
+  gap: 3rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+.cabeçalho-link a {
+  color: #fff;
+  font: 12px;
+}
+.cabeçalho-link a:hover {
+  color: #e9c914;
+  transition: 0.3s all;
+}
+img {
+  height: 170px;
+  width: 170px;
+  border: 2px solid #e9c914;
+  border-radius: 50%;
+  display: inline-flex;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button {
+  color: #e9c914;
+  background: transparent;
+  border: solid 1px #e9c914;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 150px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e9c914;
+  color: #fff;
+  transition: 0.3s;
+}
+.container-text {
+  padding: 150px 0 0 130px;
+}
+.text h3 {
+  color: #fff;
+  font-size: 15px;
+}
+.text h1 {
+  color: #fff;
+  margin-top: 10px;
+}
+.text span {
+  color: #e9c914;
+}
+.text p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.redes-sociais a {
+  color: #e9c914;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 24px;
+}
+.sobre-mim {
+  margin-top: 5px;
+}
+.To-Do-List {
+  color: #f1f1ec;
+  background: transparent;
+  border: solid 1px #e9c914;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 150px;
+  cursor: pointer;
+  margin-top: 7px;
+}
+.To-Do-List:hover {
+  color: #fff;
+  background-color: #e9c914;
+  transition: 0.3s;
+}
